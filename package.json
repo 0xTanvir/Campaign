@@ -1,0 +1,26 @@
+{
+  "name": "campaign",
+  "version": "1.0.0",
+  "description": "Kickstarter alternative implementation with blockchain(Ethereum)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0xTanvir/Campaign.git"
+  },
+  "author": "0xTanvir",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/0xTanvir/Campaign/issues"
+  },
+  "homepage": "https://github.com/0xTanvir/Campaign#readme",
+  "dependencies": {
+    "fs-extra": "^7.0.1",
+    "ganache-cli": "^6.4.1",
+    "mocha": "^6.0.2",
+    "solc": "^0.4.22",
+    "web3": "^1.0.0-beta.48"
+  }
+}

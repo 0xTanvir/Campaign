@@ -9,7 +9,7 @@ Name | Type | Description
 ------------ | ------------- | -------------
 inventor | address | Address of the person who is managing the campaign / inventor of the idea
 minContribution | uint | Minimum donation required to be considered a contributor or 'approver'
-approvers | address[] | List of addresses for every person who has donated money
+approvers | mapping | List of addresses for every person who has donated money
 requests | [Request[]](#link01) | List of request that inventor has created
 
 
