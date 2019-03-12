@@ -10,7 +10,7 @@ Name | Type | Description
 inventor | address | Address of the person who is managing the campaign / inventor of the idea
 minContribution | uint | Minimum donation required to be considered a contributor or 'approver'
 approvers | address[] | List of addresses for every person who has donated money
-requests | Request[] | List of request that inventor has created
+requests | [Request[]](#link01) | List of request that inventor has created
 
 
 ### Function
@@ -23,7 +23,7 @@ approveRequest | Called by each contributor to approve a spending request
 finalizeRequest | After a request has gotten enough approvals, the manager can call this to get money sent to the vendor
 
 
-### Request struct
+### <a name="link01"> Request struct </a>
 Name | Type | Purpose 
 ------------ | ------------- | ------------- 
 description | string | Describes why the request is being created.
